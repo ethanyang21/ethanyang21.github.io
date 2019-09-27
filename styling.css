@@ -1,0 +1,190 @@
+.background {
+	background-color: #8496bc;
+
+}
+
+a{
+	color:#96A8C8;
+	text-decoration:none;
+	font-weight:800
+}
+a:hover{
+	text-decoration:underline
+}
+
+.main_body {
+	display: grid;
+  	grid-template-columns: auto 203px 575px auto;
+  	grid-template-rows: 270px 550px 550px;
+  	text-align:center;
+	font-size:16px;
+	font-variant:small-caps;
+	font-family:Lucida,Helvetica,sans-serif;
+	font-weight:500;
+	text-decoration: none;
+	grid-row-gap: 5px;
+}
+
+.box {
+	background:white;
+	border-style:solid;
+	border-width:1.5px;
+	border-color:#071419;
+	border-radius: 12px;
+	-moz-border-radius: 12px;
+}
+
+/*============================================ TOP PART START ================================================*/
+#top_left {
+	display: grid;
+	/*background-color: red;*/
+	grid-column: 2;
+	grid-row: 1;
+	margin-right: 2px;
+	justify-items: start;
+	text-align:left;
+}
+
+#top_left ul {
+	margin: 0;
+	margin-top: 15px;
+	margin-left: 15px;
+	list-style-type: none;
+}
+
+#top_left a {
+    color: #282B30;
+    font-size: 21px;
+    font-weight: 800;
+
+}
+
+#top_left a:hover {
+	text-decoration: underline;
+}
+
+
+#top_right {
+	display: grid;
+	/*background-color: blue;*/
+	grid-column: 3;
+	grid-row: 1;
+	text-align: start;
+}
+
+#topright_upper_part {
+	display: block;
+	margin-top: 20px;
+	margin-left: 15px;
+	margin-bottom: 0px;
+}
+
+#slogan {
+	padding: 20px;
+	display: inline-block;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: 800;
+	line-height: 120%;
+	vertical-align: top;
+	margin-bottom: 0px;
+}
+
+#topright_lower_part {
+	display: block;
+	margin-top: 0px;
+	margin-left: 15px;
+	margin-bottom: 0px;
+}
+
+/*============================================ TOP PART END ================================================*/
+
+/*============================================ MIDDLE PART START ================================================*/
+
+#middle_part {
+	display: grid;
+	/*background-color: green;*/
+	grid-column: 2 / 4;
+	grid-row: 2;
+}
+
+#middlepart_title {
+    margin: 10px;
+    font-size: 21px;
+    font-weight: 800;
+}
+
+.nav_buttons {
+	list-style: none;
+	padding: 0;
+}
+
+.nav_buttons li {
+	display: inline;
+}
+
+.nav_buttons a {
+	background-color:#6E7B91;
+	color: #FFF;
+	border: 1.5px solid #333;
+	font-size: 16px;
+	font-weight: 600;
+	padding: 1.5px 12px;
+	margin: 0 4px;
+	text-decoration: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 0 0 5px 0 gray;
+	-moz-box-shadow: 0 0 5px 0 gray;
+	-webkit-box-shadow: 0 0 5px 0 gray;	
+}
+
+.nav_buttons a:hover, .nav_buttons a:focus {
+	background-color: #FFF;
+	color: #6E7B91;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+
+/*============================================ MIDDLE PART END ================================================*/
+
+
+/*============================================ BOTTOM PART START ================================================*/
+
+#bottom_part {
+	display: grid;
+	/*background-color: yellow;*/
+	grid-column: 2 / 4;
+	grid-row: 3;
+}
+
+#row_image {
+	margin-top: 30px;
+
+}
+
+#foot {
+	clear: both;
+    font-size: 6px;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+
+#warning {
+	width: 765px;
+}
+
+#license {
+	display: block;
+    margin: auto;
+    width: 410px;
+}
+
+/*============================================ BOTTOM PART START ================================================*/
+
