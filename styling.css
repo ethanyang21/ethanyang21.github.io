@@ -188,3 +188,12 @@ a:hover{
 
 /*============================================ BOTTOM PART START ================================================*/
 
+#relink {
+	display: block;
+	margin: 10px;
+}
+
+#relink a{
+	color: black;
+	font-size: 30px
+}
